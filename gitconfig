@@ -1,0 +1,18 @@
+[user]
+	email = kevin.walter.private@googlemail.com
+	name = Kevin Walter
+[alias]
+	lol = log --all --graph --oneline --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --decorate
+	wdiff = diff --color-words
+	co = checkout
+    s = status
+[core]
+	editor = vim
+[http]
+	sslVerify = true
+[gui]
+	diffopts = --color-words
+[push]
+	default = simple
+[color]
+	ui = auto
